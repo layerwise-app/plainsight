@@ -1,0 +1,249 @@
+{
+  "admin": {
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwAgCdASoQAAoAA4BaJbACdDiMwSr8ePirt/QAAPz99w/RMbj2RyJKo1hCva9+Z9TCIFfIXIgarglVqGYhqqhzFV3Nwg+kj3PPrF0u+3a2oIfL7Rh+GJ1KZFq7chNoLYl5dxAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "admin-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "admin-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "admin-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "after": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsAA4BaJYwCdADveuK28AD+84KwYwyX9FSxk0y9Z4QRpg4E/dX8+5uruX3y4ZvtoRUth0qFuMFagiky8AAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "after-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "after-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "after-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "before": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsAA4BaJZgCdAEPhwDPCOgA/vBBQxaONITKjrk8DX0f+e2cAcdxJBaue3ufTwEN941R1wzQjVfyYxTSCy3Db6fD4AAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "before-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "before-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "before-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "cover": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAsAA4BaJQBOgCINdq+9dGHAAP7vLprNR2Ob/CCSJbmuvpIj/cnKBemsvoyqgPSDXWh9S1jfV+Ac6SXtraY1jG9dmUjBnMKzwn+uThNyjG2xuAAAAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "cover-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "cover-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "cover-2880.webp"
+      }
+    ],
+    "quality": 72,
+    "share": "cover-share.jpg"
+  },
+  "cover-tall": {
+    "width": 1456,
+    "height": 1820,
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JQBOmUGY0z/ju5ERuHMN5vT7BiagA/uRYh6xKAxRKyTQqaZBc9xD7roC8X7yJTzLfpS4fK0U4MDSqBfHn+r3mDQpIQrGUWVi4nCh5YQXO5dFqsca87vxcI+J+Jp54urOvxuFy6p6t/xqc5Rxbp0ColYX62+AA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "cover-tall-800.webp"
+      },
+      {
+        "w": 1456,
+        "file": "cover-tall-1456.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "demo": {
+    "width": 2880,
+    "height": 1465,
+    "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoQAAgAA4BaJZQCdAEf4i+4AP7q8uwZ8eSDIcZ5dIQYbWq4bLt8i/anRoAAAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "demo-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "demo-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "demo-2880.webp",
+        "palette": true
+      }
+    ],
+    "quality": 72
+  },
+  "directory": {
+    "width": 1456,
+    "height": 1699,
+    "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoQABMAPu1iqk4ppaQiMAgBMB2JZwDE2DKL5AlGcAD+7uzCGYeRsZqk2O6uD8OP8mY08gNzfiwJ0MRgwlcwIRYAAAA=",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "directory-800.webp"
+      },
+      {
+        "w": 1456,
+        "file": "directory-1456.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "faults": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQAAsAA4BaJYgCdAEQdLPWl1j6AAD+rAuqEV+eKQDNeR4gdUL+fU+c0ST1IrDYNlYFxDnVTAZwl/5SPyseVIW00LhhSGYgQh6ijGIWkGCMDQAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "faults-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "faults-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "faults-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "meeting": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAsAA4BaJQBWACIZrsMLkgAA/sKe0P5HT1FmFzHrfXaBoJcai8XnPAd4uryfNrJ25L+ZjrRLtdFQ2xe+gCBW2vP3h3RvWXtU9JGI+l9uPAAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "meeting-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "meeting-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "meeting-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "notices": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAACQAgCdASoQAAsAA4BaJbACdLoAEJWWUWFD1qXEAADOOTF5ygdCkK4KiATUct2CTk8juZQeghSvk7V4tra/OC3CPUWpxL8NctkVztZVUi2vVUed1RawCYX3u8brkAFaE5jc1HSZ+vHbdQZwVvHiuZQ7HKoYLfAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "notices-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "notices-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "notices-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "onboarding": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsAA4BaJZQCdAD1eLNPAhgAAP7zgrBkXqtr/qbpUZZEVZR+cAZtLjxhQ8DIJ8XO9gz6fPL4sMAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "onboarding-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "onboarding-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "onboarding-2880.webp"
+      }
+    ],
+    "quality": 84
+  },
+  "privacy": {
+    "width": 1456,
+    "height": 1699,
+    "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoQABMAPu1iqU2ppaQiMAgBMB2JagCdMoRwACf/PH0IaZRmiAD+w/E4srLuMl7ubDHJp54Yi6PeX3L9/1HKoyf+N6vn7o1xM2FkKZYUx60ui5NXIAA=",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "privacy-800.webp"
+      },
+      {
+        "w": 1456,
+        "file": "privacy-1456.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "system": {
+    "width": 1920,
+    "height": 1200,
+    "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAAoAA4BaJbACdAD0QN4DwkAA+oXF1A6yBu2v4FXocADy7c/g+6UlS47aWRgl6ycg3+CIT67dc5LfnO0nI5lWbukzJI8Km+4apACyjTbV+rcsK1et+/wWBAAAAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "system-800.webp"
+      },
+      {
+        "w": 1920,
+        "file": "system-1920.webp",
+        "palette": true
+      }
+    ],
+    "quality": 72
+  }
+}

@@ -1,5 +1,6 @@
 import { createIsomorphicFn } from '@tanstack/react-start';
 import { getRequestUrl } from '@tanstack/react-start/server';
+import { portfolio } from '~/portfolio.config';
 
 type Site = {
   name: string;
@@ -23,16 +24,19 @@ type Site = {
 
 /** What search engines and link previews read about this site. */
 export const site: Site = {
-  name: 'My App',
-  description: 'Built with Layerwise',
+  name: portfolio.name,
+  description: `${portfolio.name} is an independent design and engineering studio in ${portfolio.location.city}: product design, identity and front-end engineering, made by the same four people.`,
   url: '',
-  image: '',
-  imageAlt: '',
+  image: '/og-image.jpg',
+  imageAlt: `${portfolio.name}, design and engineering studio in ${portfolio.location.city}`,
   googleSiteVerification: ''
 };
 
-/** Public pages in `/sitemap.xml`. Add every page search engines should find. */
-export const sitemapPaths: string[] = ['/'];
+/**
+ * Public pages in `/sitemap.xml`. Add every page search engines should find.
+ * Each case study's `/work/<slug>` is added from `src/content/work/`.
+ */
+export const sitemapPaths: string[] = ['/', '/work', '/about', '/contact'];
 
 const requestOrigin = createIsomorphicFn()
   .server(() => getRequestUrl().origin)

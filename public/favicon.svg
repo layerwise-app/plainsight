@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>Plainsight</title>
+  <rect width="1024" height="1024" fill="#0d0d0d"/>
+  <path d="M152 512A380 380 0 0 1 872 512A380 380 0 0 1 152 512Z" fill="#ffffff"/>
+  <rect x="410" y="410" width="204" height="204" fill="#0d0d0d"/>
+</svg>

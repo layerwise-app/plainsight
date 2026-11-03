@@ -1,13 +1,13 @@
 import { createFileRoute } from '@tanstack/react-router';
+import { projects } from '~/content';
 import { sitemapPaths, siteUrl } from '~/lib/site';
 
-// Lists `sitemapPaths`. Pages built from data, like one per product, can be
-// added here by querying the database for their paths.
+// Lists `sitemapPaths` and one page per case study in `src/content/work/`.
 export const Route = createFileRoute('/sitemap.xml')({
   server: {
     handlers: {
       GET: () => {
-        const urls = sitemapPaths
+        const urls = [...sitemapPaths, ...projects.map((project) => `/work/${project.slug}`)]
           .map((path) => `  <url><loc>${escapeXml(siteUrl(path))}</loc></url>`)
           .join('\n');
         return new Response(

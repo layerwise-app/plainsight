@@ -1,0 +1,155 @@
+{
+  "cover": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAsAA4BaJbACdAD2NTbigAD+YTV8At62EeDfThHdo6tM6UI1/G8fdfVaXPo99N0W+CIg3kn5RbRG2+kOb8bB44ethUAAAAA=",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "cover-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "cover-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "cover-2880.webp"
+      }
+    ],
+    "quality": 80,
+    "share": "cover-share.jpg"
+  },
+  "demo": {
+    "width": 2880,
+    "height": 1612,
+    "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAkAA4BaJZQCdAEf3Zxw3AAA/vIJMk9dkDtG9MBakQQl4e57MdIwaaZx5uaZnjqhZngA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "demo-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "demo-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "demo-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "labels": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAsAA4BaJYwCdAD0t8op1nAAAP7wP7nP39wMLs8hSjTdb2pYPI4kWjZTvs6Ut66Xdr3DVeDydYCwAAA=",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "labels-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "labels-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "labels-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "letterbox": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAsAA4BaJbACdAEQZ/jbCgJmAAD9AWAnOwdB733P6VCyoUDe44/4yhxkojP9dmbQuMcgp72iwjvEqf6u0nqqnr9a2lK5Yr/YakAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "letterbox-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "letterbox-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "letterbox-2880.webp"
+      }
+    ],
+    "quality": 84
+  },
+  "next-bag": {
+    "width": 1456,
+    "height": 1820,
+    "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JYgCdMoACBKo0RWdN+jSgAPxcuSLXCyoPHi5v/TSVEEI1A9aMzvxS+qKLJYBe07ox8L72jdmm8g7VJ8jM8MmWE7fhcgIQQ3XgPo9aWkv+7Pyyi3JmbxX+ZAA=",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "next-bag-800.webp"
+      },
+      {
+        "w": 1456,
+        "file": "next-bag-1456.webp"
+      }
+    ],
+    "quality": 84
+  },
+  "shop": {
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAoAA4BaJaACdAEO/WerAAD+te7yrucjiHGTdnZt4GX6k2nu676Nky1XfoMAbH5/V8q4osUff22hb4640sTdAVOSZAbyA24l/eLh010AAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "shop-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "shop-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "shop-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "sms": {
+    "width": 1456,
+    "height": 1820,
+    "blur": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JbACdMoRwABvOf37TmPAA+ee5Hae7cvfXZZXCX1AcvcaUeRc8+KzG6XD0fK40OJq3qaGBUbZ93u/s4s1IuYRrtIc3YKmXCnj6x8J6r/NC3gmWs31unykLn6QUBZHZYyWdxxx2P6jenXXoANVr679adOHG78oMAAA=",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "sms-800.webp"
+      },
+      {
+        "w": 1456,
+        "file": "sms-1456.webp"
+      }
+    ],
+    "quality": 80
+  },
+  "subscribe": {
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAoAA4BaJYwCdAEPUn8evgQAAP7J+DRqd+Ko82efvmmoZWeAz8GG2FU5oPmHoPZ7Oks3V0zo2rliLusMi69uAAA=",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "subscribe-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "subscribe-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "subscribe-2880.webp"
+      }
+    ],
+    "quality": 72
+  }
+}

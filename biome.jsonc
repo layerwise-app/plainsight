@@ -1,0 +1,45 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+  "files": {
+    "includes": [
+      "**",
+      "!public",
+      "!drizzle",
+      "!src/routeTree.gen.ts",
+      "!worker-configuration.d.ts",
+      "!**/images.json"
+    ]
+  },
+  "formatter": { "enabled": false },
+  "assist": { "enabled": false },
+  "css": { "parser": { "tailwindDirectives": true } },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "preset": "recommended",
+      "a11y": {
+        // Canvases are never focusable; this rule misreads them.
+        "noAriaHiddenOnFocusable": "off",
+        // The demos use ARIA patterns on purpose (grid, spinbutton, group).
+        "useSemanticElements": "off"
+      },
+      "complexity": {
+        // prefers-reduced-motion has to override every transition.
+        "noImportantStyles": "off"
+      }
+    }
+  },
+  "overrides": [
+    {
+      // Sample screens draw fixed lists that never reorder.
+      "includes": ["src/content/work/**"],
+      "linter": { "rules": { "suspicious": { "noArrayIndexKey": "off" } } }
+    },
+    {
+      // A data grid: its rows and headers aren't focusable, its cells are.
+      "includes": ["src/content/work/kvarter/screens/Booking.tsx"],
+      "linter": { "rules": { "a11y": { "useFocusableInteractive": "off" } } }
+    }
+  ]
+}

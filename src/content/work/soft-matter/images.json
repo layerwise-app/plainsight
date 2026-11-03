@@ -1,0 +1,178 @@
+{
+  "cover": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAsAA4BaJQBOgB6O+L0AAP7tgw0mphxu39xXAIGVMKHvaXepNP4EYZGmpiWkncHzIAAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "cover-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "cover-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "cover-2880.webp"
+      }
+    ],
+    "quality": 72,
+    "share": "cover-share.jpg"
+  },
+  "demo": {
+    "width": 2880,
+    "height": 1591,
+    "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAkAA4BaJYwCdAEPDsh7WkAA/ugtRfnDEVEF7N8URPYuwNlXVSqZk3lQJCztgczu2gZBKAAAAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "demo-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "demo-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "demo-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "home": {
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAoAA4BaJQBOgCKceVIY4AD+7X3z6DnIqPaQwx3X7uV2sF6WiY7dBkMe4b7ZnSCXvPRgnYrLhjAW+E0KC/BC2SAAAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "home-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "home-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "home-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "identity": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsAA4BaJZQCdAEO6Ue3gAD+8evwl1k/JgUkb15992AtMidDhtI8Qv8rtn5crdbsYvzdZJaUo/aFssC4AA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "identity-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "identity-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "identity-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "mobile": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQAAsAA4BaJYgCdADJuG9q3UcyAP7rHFdPSlHNuy+J2OPESIU/R0lqNRekBfILkbMaEFtjKLcFWDf7iUi+8JVfrUBUc9DcE6QaQ07tvgrgeKTRuNP14rAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "mobile-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "mobile-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "mobile-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "motion-guide": {
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAoAA4BaJYwAAueLO2wTgAD+8YTqG/Y6Ww94Z+81WdS+lAjO2+BT3FfbJ3iAAAA=",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "motion-guide-800.webp",
+        "palette": true
+      },
+      {
+        "w": 1600,
+        "file": "motion-guide-1600.webp",
+        "palette": true
+      },
+      {
+        "w": 2880,
+        "file": "motion-guide-2880.webp",
+        "palette": true
+      }
+    ],
+    "quality": 72
+  },
+  "poster-glass": {
+    "width": 1456,
+    "height": 1941,
+    "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoQABUAPu1iqU2ppaQiMAgBMB2JYg28xDlWABb6so2D4AD+wvr3MHrudNI6QipnyEWhLgxjWakrgHHlSTUIEX9iver8qy2m8Yw/95moumoUf76zcUiL0XikrIkhwAAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "poster-glass-800.webp"
+      },
+      {
+        "w": 1456,
+        "file": "poster-glass-1456.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "poster-wax": {
+    "width": 1456,
+    "height": 1941,
+    "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABQBACdASoQABUAPu1iqk2ppaQiMAgBMB2JQBOmUABp10R4v8o6LR5EFXwAAP7TMB6udwjefYq+jmSnks+/LrHJ8IRGc9WGSqNj/rcqTQDUchyxgFCASb6qbRDg6h+v5OieIE21CSYAvzh5gAA=",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "poster-wax-800.webp"
+      },
+      {
+        "w": 1456,
+        "file": "poster-wax-1456.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "project": {
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAoAA4BaJZgCdAEUnm8+9YAA/vJR23X0cMaZDEiKZ7rpknfLGyhD0/TOn+rI0sepi0eY4AdL8ZGYIGBHuueA+x0uDdXnRmsVa/Z1bpBRq8sUytPAAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "project-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "project-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "project-2880.webp"
+      }
+    ],
+    "quality": 72
+  }
+}

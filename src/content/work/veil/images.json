@@ -1,0 +1,167 @@
+{
+  "check": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsAA4BaJYwAAudbEu7NCgAA/vI0zD3ICUfW3NbSeJ02b19Zs4Iegz8+Ntt1zLZ6J3oIy2rIL9PYUjgLzMAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "check-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "check-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "check-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "cover": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoQAAsAA4BaJbACdB2gAchd/1zKbeAA/u46rbaStKwNe7Zzg2d+Gi6aNZZrZkEcV169xrESh4IE/0fFOWCUplMo/DIsXqlMc3UQECLG2xkxPAAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "cover-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "cover-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "cover-2880.webp"
+      }
+    ],
+    "quality": 80,
+    "share": "cover-share.jpg"
+  },
+  "cover-tall": {
+    "width": 1456,
+    "height": 1820,
+    "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JZgC06CHurThhWxoFGAAA/uqOoLsYE7Fmofj9qwVeFnuONlx6snF3fMm7kBw9uzSfy2MIORmH62PRctt7xLq6jNHnh8j61f4KamGejHkdKYowy/qQAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "cover-tall-800.webp"
+      },
+      {
+        "w": 1456,
+        "file": "cover-tall-1456.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "demo": {
+    "width": 2880,
+    "height": 1478,
+    "blur": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoQAAgAA4BaJZQAAudSIqoAAP72CLXP2HuY7T1skciupNTeCQBxYAAA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "demo-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "demo-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "demo-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "everyday": {
+    "width": 2880,
+    "height": 1920,
+    "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQAAsAA4BaJYgC7AEDfbTx35NagAD+8EE/M718juEgkEFmKWvd9qcnKZLOlekwIsNd/MgGY0hmY2g503wqPxY16nKgg1Q4GrmpxpGgAAA=",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "everyday-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "everyday-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "everyday-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "lookalike": {
+    "width": 2880,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAoAA4BaJaAC7AEPD3DlOXAA/uIn8YZY1SSyfF5Z9W3ndKS217sm1WQS77f0e+gtqwu2FW11ZdNLHAAAAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "lookalike-800.webp"
+      },
+      {
+        "w": 1600,
+        "file": "lookalike-1600.webp"
+      },
+      {
+        "w": 2880,
+        "file": "lookalike-2880.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "recovery": {
+    "width": 1456,
+    "height": 1820,
+    "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQAwCdASoQABQAPu1iqk2ppaQiMAgBMB2JaAC7ACLPn4Nuilv66IAA/u1KMFBeRLYd7aAw0MNbUFPArYaNiD/3B8jNevrfw+U9hDFJH2vOXkbTmCuFVnGy2NNP5wGe7Z9ybPAgUPwAAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "recovery-800.webp"
+      },
+      {
+        "w": 1456,
+        "file": "recovery-1456.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "report": {
+    "width": 1456,
+    "height": 1820,
+    "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JYgCw7B6NjWcUcPcaEAD+7WEE3eiOgW8YozFbMNDUjYevU06D1yi/rc3EYgM3NEtBTI912EaYXjwvQI3jXZKsocHW7DHmG/iZWZoA",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "report-800.webp"
+      },
+      {
+        "w": 1456,
+        "file": "report-1456.webp"
+      }
+    ],
+    "quality": 72
+  },
+  "system": {
+    "width": 1920,
+    "height": 1200,
+    "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAoAA4BaJZQCw7Dp5cyeihCgAP7tpyfCLRrH2Yu8dj4N8JRqO+nIaM6dzBK1uXJcxBdAKSv+KNgCLAAAAA==",
+    "sizes": [
+      {
+        "w": 800,
+        "file": "system-800.webp"
+      },
+      {
+        "w": 1920,
+        "file": "system-1920.webp"
+      }
+    ],
+    "quality": 72
+  }
+}
