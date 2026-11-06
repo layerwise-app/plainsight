@@ -1,24 +1,38 @@
+<a href="https://layerwise.app"><picture><source media="(prefers-color-scheme: dark)" srcset="https://layerwise.app/powered-by-dark.png"><img src="https://layerwise.app/powered-by.png" alt="Powered by Layerwise" width="174" height="28"></picture></a>
+
 # Plainsight
 
-A quiet portfolio for a design and engineering studio, or for one designer.
-It has five pages: Home, Work, a case study for each project, About and
-Contact. White pages and one grotesque typeface leave all the colour to the
-work. The sample owner is Halden, a fictional studio of four in Oslo, and
-its eight projects are fictional too.
+Plainsight is a quiet portfolio template for a design and engineering
+studio, or for one designer. White pages and one grotesque typeface leave
+all the colour to the work.
 
-Built with TanStack Start, React, Tailwind CSS and Cloudflare D1, on
-[Layerwise](https://layerwise.app).
+Visitors browse a wall of projects on Home, where hovering a cover plays a
+short loop, and open a case study for each one: its brief, decisions and
+outcome, then large images, video, before-and-after sliders and live demos
+they can use in the page. About introduces the team, services, experience and
+clients, with a CV to download, and Contact takes a message. The sample owner
+is Halden, a fictional studio of four in Oslo, and its eight projects are
+fictional too. See the live demo at <https://plainsight.layerwise.site/>.
+
+Plainsight was built with [Layerwise](https://layerwise.app), and you can
+open it in Layerwise to make your own version.
+
+It has five pages: Home, Work, a case study for each project, About and
+Contact. It runs on TanStack Start, React, Tailwind CSS and Cloudflare D1.
 
 ## Where things are
 
 | What                                                   | Where                                   |
 | ------------------------------------------------------ | --------------------------------------- |
 | Name, statement, bio, team, clients, email, fonts, colours | `src/portfolio.config.ts`           |
+| Order of the work on Home and Work (`workOrder`)       | `src/portfolio.config.ts`               |
+| Search description, share image, custom domain URL     | `src/lib/site.ts`                       |
 | One case study                                         | `src/content/work/<slug>.ts`            |
 | Its images, videos and live demo                       | `src/content/work/<slug>/`              |
 | The CV linked from About                               | `public/halden-studio-cv.pdf` (`cv.href`) |
 | Default link preview image                             | `public/og-image.jpg`                   |
 | Logo and favicons                                      | `public/logo.svg`, then `pnpm render-icons` |
+| Footer, with its Powered by Layerwise badge            | `src/components/site/SiteFooter.tsx`    |
 | Contact messages                                       | the `messages` table in the database    |
 
 ## Add a project
@@ -78,8 +92,9 @@ under about 8 seconds and 2 MB, with no sound.
 ### Swap a live demo for an image or video
 
 A `demo` block mounts the React component in `load`. Its `still` is shown
-while the component loads, and also if the component fails or the browser
-has no WebGL. To drop the live component, change the block to
+while the component loads and if the component fails. A demo that can't run
+in the browser can also show it by calling `useDemoStill()`, as the Soft
+Matter demo does without WebGL. To drop the live component, change the block to
 `{ type: 'image', image: images.demo, alt: '…' }` or to a `video` block,
 then delete the `demo.tsx` file. Each demo is a separate file, so pages
 without one don't download it.
@@ -128,16 +143,20 @@ Both are set in `src/portfolio.config.ts`.
 All fonts are under the SIL Open Font License 1.1. Each folder in
 `public/fonts/` holds its `OFL.txt`.
 
-| Font                | Used for                     |
-| ------------------- | ---------------------------- |
-| Schibsted Grotesk   | The site                     |
-| Geist, Geist Mono   | Kestrel sample screens       |
-| Instrument Sans, Instrument Serif, Fragment Mono | Veil, Marmor and Kvarter samples |
-| Unbounded, Manrope  | Soft Matter sample           |
-| Archivo, Bricolage Grotesque, Work Sans | Marmor and Kvarter samples |
-| Spline Sans, Spline Sans Mono | Isobar sample      |
-| IBM Plex Sans, IBM Plex Mono | Gantry and Kvarter samples |
-| Fraunces, Work Sans | Grums sample                 |
+| Font                          | Used for                         |
+| ----------------------------- | -------------------------------- |
+| Schibsted Grotesk             | The site                         |
+| Geist, Geist Mono             | Kestrel sample screens           |
+| Instrument Sans               | Veil sample                      |
+| Instrument Serif              | Veil, Marmor and Kvarter samples |
+| Fragment Mono                 | Veil and Marmor samples          |
+| Unbounded, Manrope            | Soft Matter sample               |
+| Archivo, Bricolage Grotesque  | Marmor and Kvarter samples       |
+| Work Sans                     | Marmor and Grums samples         |
+| Fraunces                      | Grums sample                     |
+| Spline Sans, Spline Sans Mono | Isobar sample                    |
+| IBM Plex Sans                 | Gantry and Kvarter samples       |
+| IBM Plex Mono                 | Gantry sample                    |
 
 ## Contact form
 

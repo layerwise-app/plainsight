@@ -17,15 +17,27 @@ export function SiteFooter() {
         <p>
           {portfolio.name}, {portfolio.location.city} © {year}
         </p>
-        <ul className='flex flex-wrap gap-x-5 gap-y-1'>
-          {portfolio.socials.map((social) => (
-            <li key={social.label}>
-              <a href={social.href} className='link' rel='me noopener' target='_blank'>
-                {social.label}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <div className='flex flex-wrap items-center gap-x-8 gap-y-3'>
+          <ul className='flex flex-wrap gap-x-5 gap-y-1'>
+            {portfolio.socials.map((social) => (
+              <li key={social.label}>
+                <a href={social.href} className='link' rel='me noopener' target='_blank'>
+                  {social.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <a href='https://layerwise.app' target='_blank' rel='noopener' className='shrink-0'>
+            <img
+              src='https://layerwise.app/powered-by.png'
+              alt='Powered by Layerwise'
+              width={174}
+              height={28}
+              loading='lazy'
+              decoding='async'
+            />
+          </a>
+        </div>
       </div>
     </footer>
   );
